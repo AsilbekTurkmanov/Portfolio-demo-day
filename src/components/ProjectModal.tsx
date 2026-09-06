@@ -3,7 +3,7 @@ import { ProjectItem } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 import { TechIcon } from './TechIcon';
 import { X, ExternalLink, CheckCircle, Sparkles, Layers } from 'lucide-react';
-import { GithubIcon } from './SocialIcons';
+import { GithubIcon, TelegramIcon } from './SocialIcons';
 
 interface ProjectModalProps {
   project: ProjectItem | null;
@@ -182,8 +182,17 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             className="btn btn-primary"
             style={{ flex: '1 1 200px' }}
           >
-            <ExternalLink size={16} />
-            <span>{t.projects.liveBtn}</span>
+            {project.liveUrl.includes('t.me') ? (
+              <>
+                <TelegramIcon size={16} />
+                <span>{t.projects.openInTelegram}</span>
+              </>
+            ) : (
+              <>
+                <ExternalLink size={16} />
+                <span>{t.projects.liveBtn}</span>
+              </>
+            )}
           </a>
           <a
             href={project.githubUrl}

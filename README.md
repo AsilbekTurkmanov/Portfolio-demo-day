@@ -26,13 +26,14 @@
 
 ---
 
-## 📂 5 Real Amaliy Loyihalar
+## 📂 6 Real Amaliy Loyihalar
 
 1. **[AI Sotuvchi](https://asilbekturkmanov.github.io/Ai-sotuvchi/)** — Avtonom AI Savdo Agenti + Mini-CRM ([GitHub](https://github.com/AsilbekTurkmanov/Ai-sotuvchi))
 2. **[AI Telegram Bot Builder](https://asilbekturkmanov.github.io/AI-Telegram-Bot-Builder/)** — Vizual Telegram botlar generatori va Monaco IDE ([GitHub](https://github.com/AsilbekTurkmanov/AI-Telegram-Bot-Builder))
 3. **[SavdoX](https://savdox.169.58.161.223.sslip.io)** — Full-Stack do'kon va ombor ERP tizimi (Contabo VPS + Docker) ([GitHub](https://github.com/AsilbekTurkmanov/SavdoX))
 4. **[MedAI](https://asilbekturkmanov.github.io/MedAi-Stitch-version/)** — C# .NET 10 Web API + Ovozli AI shifokor va telemeditsina platformasi ([GitHub](https://github.com/AsilbekTurkmanov/MedAi-Stitch-version))
 5. **[TestPlatform](https://asilbekturkmanov.github.io/TestPlatform-Demo-day/)** — Zamonaviy test va baholash tizimi (Recharts + Server taymer) ([GitHub](https://github.com/AsilbekTurkmanov/TestPlatform-Demo-day))
+6. **[@InstaOhang_bot](https://t.me/InstaOhang_bot)** — Instagram Reels va videolardan musiqa/audio yuklab beruvchi avtomatlashtirilgan Telegram bot ([Telegram](https://t.me/InstaOhang_bot))
 
 ---
 

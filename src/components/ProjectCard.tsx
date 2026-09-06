@@ -2,8 +2,8 @@ import React from 'react';
 import { ProjectItem } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 import { TechIcon } from './TechIcon';
-import { ExternalLink, Info, Sparkles, Bot, Database, Activity, CheckCircle2 } from 'lucide-react';
-import { GithubIcon } from './SocialIcons';
+import { ExternalLink, Info, Sparkles, Bot, Database, Activity, CheckCircle2, Music } from 'lucide-react';
+import { GithubIcon, TelegramIcon } from './SocialIcons';
 
 interface ProjectCardProps {
   project: ProjectItem;
@@ -25,6 +25,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onOpenDetails
         return <Activity size={28} color="var(--accent-purple)" />;
       case 'CheckCircle2':
         return <CheckCircle2 size={28} color="var(--accent-gold)" />;
+      case 'Music':
+        return <Music size={28} color="#f43f5e" />;
       default:
         return <Sparkles size={28} color="var(--accent-cyan)" />;
     }
@@ -193,8 +195,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onOpenDetails
             className="btn btn-primary"
             style={{ width: '100%', fontSize: '0.875rem', padding: '0.65rem 1rem' }}
           >
-            <ExternalLink size={15} />
-            <span>{t.projects.liveBtn}</span>
+            {project.liveUrl.includes('t.me') ? (
+              <>
+                <TelegramIcon size={15} />
+                <span>{t.projects.openInTelegram}</span>
+              </>
+            ) : (
+              <>
+                <ExternalLink size={15} />
+                <span>{t.projects.liveBtn}</span>
+              </>
+            )}
           </a>
 
           {/* Secondary Button */}

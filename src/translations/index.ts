@@ -71,9 +71,11 @@ export interface Translations {
       ai: string;
       fullstack: string;
       web: string;
+      bot: string;
     };
     liveBtn: string;
     githubBtn: string;
+    openInTelegram: string;
     modalDetailsBtn: string;
     modalTitle: string;
     highlightsTitle: string;
@@ -205,10 +207,12 @@ export const translations: Record<Language, Translations> = {
         all: 'Barchasi',
         ai: 'AI & Sun’iy Intellekt',
         fullstack: 'Full-Stack Tizimlar',
-        web: 'Web Ilovalar'
+        web: 'Web Ilovalar',
+        bot: 'Telegram Botlar'
       },
       liveBtn: '🚀 Sinab ko‘rish',
       githubBtn: '⌘ GitHub kodini ko‘rish',
+      openInTelegram: 'Telegramda ochish',
       modalDetailsBtn: 'Tafsilotlar',
       modalTitle: 'Loyiha haqida batafsil',
       highlightsTitle: 'Asosiy imkoniyatlari:',
@@ -235,7 +239,7 @@ export const translations: Record<Language, Translations> = {
       summaryQuestions: {
         who: { q: 'Kim?', a: 'Asilbek Turkmanov — 1 yil 4 oy davomida jiddiy o‘qigan Full-Stack dasturchi.' },
         whatLearned: { q: 'Nimalarni o‘rgandi?', a: 'Web saytlarning ko‘rinishi (Frontend), ichki miyasi (Backend) va ma’lumotlar bazasini.' },
-        whatBuilt: { q: 'Nima yaratdi?', a: 'AI sotuvchi, Telegram botlar yaratuvchi tizim, SavdoX va MedAI kabi 5 ta to‘liq ishchi loyiha.' },
+        whatBuilt: { q: 'Nima yaratdi?', a: 'AI sotuvchi, AI bot builder, InstaOhang bot, SavdoX va MedAI kabi 6 ta to‘liq ishchi loyiha.' },
         whatWon: { q: 'Qanday yutuqlarga ega?', a: 'Normativ Challenge, Digital Mind, Algoritmlash (1-o‘rin) va Shahar IT Olimpiadasi (3-o‘rin).' },
         whatNext: { q: 'Kelajakdagi maqsadi nima?', a: 'Bilimlarini yanada oshirib, yirik IT kompaniyalarda professional dasturchi bo‘lib ishlash.' }
       }
@@ -338,10 +342,12 @@ export const translations: Record<Language, Translations> = {
         all: 'Все',
         ai: 'ИИ и Боты',
         fullstack: 'Full-Stack Системы',
-        web: 'Веб-приложения'
+        web: 'Веб-приложения',
+        bot: 'Telegram Боты'
       },
       liveBtn: '🚀 Попробовать демо',
       githubBtn: '⌘ Код на GitHub',
+      openInTelegram: 'Открыть в Telegram',
       modalDetailsBtn: 'Подробнее',
       modalTitle: 'О проекте подробно',
       highlightsTitle: 'Ключевые возможности:',
@@ -368,7 +374,7 @@ export const translations: Record<Language, Translations> = {
       summaryQuestions: {
         who: { q: 'Кто?', a: 'Асилбек Туркманов — увлеченный Full-Stack разработчик с опытом интенсивного обучения 1 год и 4 месяца.' },
         whatLearned: { q: 'Что изучил?', a: 'Интерфейсы (Frontend), серверную логику (Backend) и базы данных.' },
-        whatBuilt: { q: 'Что создал?', a: '5 работающих проектов: ИИ-продавец, конструктор ботов, систему SavdoX и MedAI.' },
+        whatBuilt: { q: 'Что создал?', a: '6 работающих проектов: ИИ-продавец, конструктор ботов, InstaOhang бот, SavdoX и MedAI.' },
         whatWon: { q: 'Чего достиг?', a: '1-е места в конкурсах Normativ, Digital Mind, Алгоритмы и 3-е место в Городской IT Олимпиаде.' },
         whatNext: { q: 'Какая цель?', a: 'Стать профессиональным инженером-разработчиком в ведущих IT-корпорациях.' }
       }
@@ -471,10 +477,12 @@ export const translations: Record<Language, Translations> = {
         all: 'All',
         ai: 'AI & Automation',
         fullstack: 'Full-Stack Systems',
-        web: 'Web Applications'
+        web: 'Web Applications',
+        bot: 'Telegram Bots'
       },
       liveBtn: '🚀 Try Live Demo',
       githubBtn: '⌘ View on GitHub',
+      openInTelegram: 'Open in Telegram',
       modalDetailsBtn: 'Details',
       modalTitle: 'Project Specifications',
       highlightsTitle: 'Key Architecture Highlights:',
@@ -501,7 +509,7 @@ export const translations: Record<Language, Translations> = {
       summaryQuestions: {
         who: { q: 'Who is he?', a: 'Asilbek Turkmanov — a dedicated Full-Stack developer with 1 year 4 months of intensive training.' },
         whatLearned: { q: 'What did he learn?', a: 'User interfaces (Frontend), server architecture (Backend), and database management.' },
-        whatBuilt: { q: 'What did he build?', a: '5 verified production projects including AI sales agents, bot builders, SavdoX ERP, and MedAI.' },
+        whatBuilt: { q: 'What did he build?', a: '6 verified production projects including AI sales agents, bot builders, InstaOhang media bot, SavdoX ERP, and MedAI.' },
         whatWon: { q: 'What did he achieve?', a: '1st place in Normativ, Digital Mind, Algorithmic contests, and 3rd in the City IT Olympiad.' },
         whatNext: { q: 'What is his goal?', a: 'To work as a professional software engineer in top-tier global IT enterprises.' }
       }

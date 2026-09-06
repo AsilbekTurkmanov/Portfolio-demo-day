@@ -3,7 +3,7 @@ export type Language = 'uz' | 'ru' | 'en';
 export interface ProjectItem {
   id: string;
   name: string;
-  category: 'ai' | 'fullstack' | 'web';
+  category: 'ai' | 'fullstack' | 'web' | 'bot';
   badge: {
     uz: string;
     ru: string;

@@ -230,5 +230,51 @@ export const projectsData: ProjectItem[] = [
     ],
     imageGradient: 'linear-gradient(135deg, #0f172a 0%, #3b0764 50%, #1e3a5f 100%)',
     iconName: 'CheckCircle2'
+  },
+  {
+    id: 'instaohang-bot',
+    name: 'InstaOhang Bot',
+    category: 'bot',
+    badge: {
+      uz: 'Telegram & Media Bot',
+      ru: 'Telegram & Медиа Бот',
+      en: 'Telegram & Media Bot'
+    },
+    description: {
+      uz: 'Instagram platformasidagi Reels, videolar va postlardan audio/musiqa (ohang) hamda videolarni lahzada yuklab beruvchi, yuqori tezlikda ishlovchi avtomatlashtirilgan Telegram bot.',
+      ru: 'Быстрый и удобный Telegram-бот для мгновенного скачивания аудиодорожек (музыки/рингтонов) и видео из Instagram Reels, публикаций и историй.',
+      en: 'High-speed automated Telegram bot for instant extraction and downloading of audio tracks (music/melodies) and videos from Instagram Reels, posts, and stories.'
+    },
+    simpleExplanation: {
+      uz: 'Instagramdan yoqqan qo‘shiq yoki videoning havolasini yuborishingiz bilan uni tezda yuklab, Telegramda tayyor musiqa va video holatida taqdim etuvchi bot.',
+      ru: 'Удобный бот, который мгновенно присылает музыку или видео из Instagram в Telegram по одной лишь отправленной ссылке.',
+      en: 'A handy bot that instantly extracts and delivers music tracks or videos right into your Telegram chat from any Instagram link.'
+    },
+    technologies: ['Telegram Bot API', 'Python', 'FFmpeg', 'AsyncIO', 'Media Extractor', 'Cloud Hosting'],
+    githubUrl: 'https://github.com/AsilbekTurkmanov',
+    liveUrl: 'https://t.me/InstaOhang_bot',
+    highlights: {
+      uz: [
+        'Instagram Reels va postlardan musiqa (audio/mp3) ajratib olish',
+        'To‘g‘ridan-to‘g‘ri Telegram orqali yuqori sifatda tezkor yuklab olish',
+        'Avtomatlashtirilgan 24/7 uzluksiz tezkor javob berish tizimi'
+      ],
+      ru: [
+        'Извлечение аудиодорожек и музыки (MP3) из Instagram Reels',
+        'Прямая и быстрая загрузка медиафайлов высокого качества прямо в Telegram',
+        'Автоматизированная круглосуточная работа 24/7 с высокой скоростью'
+      ],
+      en: [
+        'Instant audio and music (MP3) extraction from Instagram Reels',
+        'Direct high-quality media streaming & downloads inside Telegram',
+        '24/7 automated high-concurrency cloud processing architecture'
+      ]
+    },
+    stats: [
+      { label: { uz: 'Bot turi', ru: 'Тип бота', en: 'Bot Type' }, value: 'Telegram Bot' },
+      { label: { uz: 'Tezlik', ru: 'Скорость', en: 'Speed' }, value: '< 2 soniya' }
+    ],
+    imageGradient: 'linear-gradient(135deg, #0f172a 0%, #831843 50%, #0284c7 100%)',
+    iconName: 'Music'
   }
 ];

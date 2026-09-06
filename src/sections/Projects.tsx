@@ -15,7 +15,8 @@ export const Projects: React.FC = () => {
     { key: 'all', label: t.projects.categories.all },
     { key: 'ai', label: t.projects.categories.ai },
     { key: 'fullstack', label: t.projects.categories.fullstack },
-    { key: 'web', label: t.projects.categories.web }
+    { key: 'web', label: t.projects.categories.web },
+    { key: 'bot', label: t.projects.categories.bot }
   ];
 
   const filteredProjects = activeCategory === 'all'
